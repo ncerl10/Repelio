@@ -1,0 +1,383 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F60F275F24EE453200B7FF31 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F60F275E24EE453200B7FF31 /* ViewController.swift */; };
+		F6B072DD24F494E200F57424 /* TurnThePail.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6B072DC24F494E200F57424 /* TurnThePail.swift */; };
+		F6B072DF24F4951A00F57424 /* TipTheVase.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6B072DE24F4951A00F57424 /* TipTheVase.swift */; };
+		F6B072E124F4955600F57424 /* FlipTheFlowerpotPlate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6B072E024F4955600F57424 /* FlipTheFlowerpotPlate.swift */; };
+		F6B072E324F4989D00F57424 /* LoosenTheHardenedSoil.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6B072E224F4989D00F57424 /* LoosenTheHardenedSoil.swift */; };
+		F6B072E524F4993900F57424 /* ClearRoofGutters.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6B072E424F4993900F57424 /* ClearRoofGutters.swift */; };
+		F6B072ED24F895D300F57424 /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6B072EC24F895D300F57424 /* File.swift */; };
+		F6B33403251708F80018E8D1 /* assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F6B33402251708F80018E8D1 /* assets.xcassets */; };
+		F6BD0E1D24DC3D0000393EDA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6BD0E1C24DC3D0000393EDA /* AppDelegate.swift */; };
+		F6BD0E1F24DC3D0000393EDA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6BD0E1E24DC3D0000393EDA /* SceneDelegate.swift */; };
+		F6BD0E2424DC3D0000393EDA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F6BD0E2224DC3D0000393EDA /* Main.storyboard */; };
+		F6BD0E2924DC3D0300393EDA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F6BD0E2724DC3D0300393EDA /* LaunchScreen.storyboard */; };
+		F6BD0E3124E3B38900393EDA /* Mozziewipeout.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6BD0E3024E3B38900393EDA /* Mozziewipeout.swift */; };
+		F6BD0E3324E506E500393EDA /* DengueAndMalaria.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6BD0E3224E506E500393EDA /* DengueAndMalaria.swift */; };
+		F6BD0E3524E5081900393EDA /* MosquitoFacts.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6BD0E3424E5081900393EDA /* MosquitoFacts.swift */; };
+		F6BE2569250C6B9F0021C5C1 /* Credits.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6BE2568250C6B9F0021C5C1 /* Credits.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F60F275E24EE453200B7FF31 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F6B072DC24F494E200F57424 /* TurnThePail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TurnThePail.swift; sourceTree = "<group>"; };
+		F6B072DE24F4951A00F57424 /* TipTheVase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipTheVase.swift; sourceTree = "<group>"; };
+		F6B072E024F4955600F57424 /* FlipTheFlowerpotPlate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlipTheFlowerpotPlate.swift; sourceTree = "<group>"; };
+		F6B072E224F4989D00F57424 /* LoosenTheHardenedSoil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoosenTheHardenedSoil.swift; sourceTree = "<group>"; };
+		F6B072E424F4993900F57424 /* ClearRoofGutters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClearRoofGutters.swift; sourceTree = "<group>"; };
+		F6B072EC24F895D300F57424 /* File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
+		F6B33402251708F80018E8D1 /* assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = assets.xcassets; sourceTree = "<group>"; };
+		F6BD0E1924DC3D0000393EDA /* Repelio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Repelio.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F6BD0E1C24DC3D0000393EDA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F6BD0E1E24DC3D0000393EDA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		F6BD0E2324DC3D0000393EDA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F6BD0E2824DC3D0300393EDA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F6BD0E2A24DC3D0300393EDA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F6BD0E3024E3B38900393EDA /* Mozziewipeout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mozziewipeout.swift; sourceTree = "<group>"; };
+		F6BD0E3224E506E500393EDA /* DengueAndMalaria.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DengueAndMalaria.swift; sourceTree = "<group>"; };
+		F6BD0E3424E5081900393EDA /* MosquitoFacts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MosquitoFacts.swift; sourceTree = "<group>"; };
+		F6BE2568250C6B9F0021C5C1 /* Credits.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Credits.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F6BD0E1624DC3D0000393EDA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F6BD0E1024DC3D0000393EDA = {
+			isa = PBXGroup;
+			children = (
+				F6BD0E1B24DC3D0000393EDA /* Repelio */,
+				F6BD0E1A24DC3D0000393EDA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F6BD0E1A24DC3D0000393EDA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F6BD0E1924DC3D0000393EDA /* Repelio.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F6BD0E1B24DC3D0000393EDA /* Repelio */ = {
+			isa = PBXGroup;
+			children = (
+				F6BD0E1C24DC3D0000393EDA /* AppDelegate.swift */,
+				F6BD0E1E24DC3D0000393EDA /* SceneDelegate.swift */,
+				F6BD0E2224DC3D0000393EDA /* Main.storyboard */,
+				F6B072E424F4993900F57424 /* ClearRoofGutters.swift */,
+				F6B072E224F4989D00F57424 /* LoosenTheHardenedSoil.swift */,
+				F6BE2568250C6B9F0021C5C1 /* Credits.swift */,
+				F6B072E024F4955600F57424 /* FlipTheFlowerpotPlate.swift */,
+				F6B072DE24F4951A00F57424 /* TipTheVase.swift */,
+				F6B072DC24F494E200F57424 /* TurnThePail.swift */,
+				F6B072EC24F895D300F57424 /* File.swift */,
+				F60F275E24EE453200B7FF31 /* ViewController.swift */,
+				F6BD0E3424E5081900393EDA /* MosquitoFacts.swift */,
+				F6BD0E3224E506E500393EDA /* DengueAndMalaria.swift */,
+				F6BD0E3024E3B38900393EDA /* Mozziewipeout.swift */,
+				F6BD0E2724DC3D0300393EDA /* LaunchScreen.storyboard */,
+				F6BD0E2A24DC3D0300393EDA /* Info.plist */,
+				F6B33402251708F80018E8D1 /* assets.xcassets */,
+			);
+			path = Repelio;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F6BD0E1824DC3D0000393EDA /* Repelio */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F6BD0E2D24DC3D0300393EDA /* Build configuration list for PBXNativeTarget "Repelio" */;
+			buildPhases = (
+				F6BD0E1524DC3D0000393EDA /* Sources */,
+				F6BD0E1624DC3D0000393EDA /* Frameworks */,
+				F6BD0E1724DC3D0000393EDA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Repelio;
+			productName = Repelio;
+			productReference = F6BD0E1924DC3D0000393EDA /* Repelio.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F6BD0E1124DC3D0000393EDA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1160;
+				LastUpgradeCheck = 1160;
+				ORGANIZATIONNAME = "Noah Lee";
+				TargetAttributes = {
+					F6BD0E1824DC3D0000393EDA = {
+						CreatedOnToolsVersion = 11.6;
+					};
+				};
+			};
+			buildConfigurationList = F6BD0E1424DC3D0000393EDA /* Build configuration list for PBXProject "Repelio" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F6BD0E1024DC3D0000393EDA;
+			productRefGroup = F6BD0E1A24DC3D0000393EDA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F6BD0E1824DC3D0000393EDA /* Repelio */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F6BD0E1724DC3D0000393EDA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6BD0E2924DC3D0300393EDA /* LaunchScreen.storyboard in Resources */,
+				F6BD0E2424DC3D0000393EDA /* Main.storyboard in Resources */,
+				F6B33403251708F80018E8D1 /* assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F6BD0E1524DC3D0000393EDA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6B072E124F4955600F57424 /* FlipTheFlowerpotPlate.swift in Sources */,
+				F6BD0E3324E506E500393EDA /* DengueAndMalaria.swift in Sources */,
+				F6B072E324F4989D00F57424 /* LoosenTheHardenedSoil.swift in Sources */,
+				F6BE2569250C6B9F0021C5C1 /* Credits.swift in Sources */,
+				F6B072E524F4993900F57424 /* ClearRoofGutters.swift in Sources */,
+				F6BD0E3524E5081900393EDA /* MosquitoFacts.swift in Sources */,
+				F6BD0E3124E3B38900393EDA /* Mozziewipeout.swift in Sources */,
+				F6B072DF24F4951A00F57424 /* TipTheVase.swift in Sources */,
+				F6B072DD24F494E200F57424 /* TurnThePail.swift in Sources */,
+				F60F275F24EE453200B7FF31 /* ViewController.swift in Sources */,
+				F6B072ED24F895D300F57424 /* File.swift in Sources */,
+				F6BD0E1D24DC3D0000393EDA /* AppDelegate.swift in Sources */,
+				F6BD0E1F24DC3D0000393EDA /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F6BD0E2224DC3D0000393EDA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F6BD0E2324DC3D0000393EDA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F6BD0E2724DC3D0300393EDA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F6BD0E2824DC3D0300393EDA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F6BD0E2B24DC3D0300393EDA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F6BD0E2C24DC3D0300393EDA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F6BD0E2E24DC3D0300393EDA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PCY4J8B7H8;
+				INFOPLIST_FILE = Repelio/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = SST.Repelio;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F6BD0E2F24DC3D0300393EDA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PCY4J8B7H8;
+				INFOPLIST_FILE = Repelio/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = SST.Repelio;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F6BD0E1424DC3D0000393EDA /* Build configuration list for PBXProject "Repelio" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F6BD0E2B24DC3D0300393EDA /* Debug */,
+				F6BD0E2C24DC3D0300393EDA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F6BD0E2D24DC3D0300393EDA /* Build configuration list for PBXNativeTarget "Repelio" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F6BD0E2E24DC3D0300393EDA /* Debug */,
+				F6BD0E2F24DC3D0300393EDA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F6BD0E1124DC3D0000393EDA /* Project object */;
+}
